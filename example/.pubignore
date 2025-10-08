@@ -1,0 +1,42 @@
+# Exclude example platform/build files from published package
+
+# iOS
+example/ios/Runner.xcworkspace/
+example/ios/Pods/
+example/ios/Flutter/Generated.xcconfig
+example/ios/Flutter/.last_build_id
+example/ios/Runner/Flutter/AppFrameworkInfo.plist
+
+# macOS
+example/macos/Runner.xcworkspace/
+example/macos/Pods/
+example/macos/Flutter/Generated.xcconfig
+example/macos/Runner/Flutter/Flutter-Debug.xcconfig
+example/macos/Runner/Flutter/Flutter-Release.xcconfig
+
+# Linux
+example/linux/flutter/generated_plugins.cmake
+example/linux/flutter/generated_plugin_registrant.h
+example/linux/flutter/generated_plugin_registrant.cc
+
+# Windows
+example/windows/flutter/generated_plugins.*
+example/windows/runner/*.exe
+example/windows/runner/*.dll
+example/windows/runner/*.pdb
+
+# Web
+example/web/.dart_tool/
+
+# General Dart/Flutter
+example/.dart_tool/
+example/.packages
+example/pubspec.lock
+example/.metadata
+
+# IDE / editor
+example/.idea/
+example/.vscode/
+
+# Build outputs
+build/

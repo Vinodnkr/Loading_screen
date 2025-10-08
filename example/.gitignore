@@ -83,3 +83,35 @@ web/.dart_tool/
 
 # Misc
 *.log
+# Exclude all build and platform-specific files
+/build/
+/.dart_tool/
+/.packages
+/pubspec.lock
+
+# Exclude example build/platform files
+example/**/build/
+example/**/.dart_tool/
+example/**/.packages
+
+# iOS platform files in example
+example/ios/Runner.xcworkspace/
+example/ios/Pods/
+example/ios/Flutter/Generated.xcconfig
+
+# macOS platform files in example
+example/macos/Runner.xcworkspace/
+example/macos/Pods/
+example/macos/Flutter/Generated.xcconfig
+
+# Linux platform files in example
+example/linux/flutter/generated_plugins.cmake
+
+# Windows platform files in example
+example/windows/flutter/generated_plugins.cmake
+
+# Misc
+example/pubspec.lock
+example/.metadata
+example/.idea/
+example/.vscode/
