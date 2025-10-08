@@ -88,7 +88,6 @@ class _LoadingWidget extends StatelessWidget {
   final String? gifOrImagePath;
   final bool barrierDismissible;
   final double? loadingWidth;
-
   const _LoadingWidget({
     Key? key,
     this.widget,
