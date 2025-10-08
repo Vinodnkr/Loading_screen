@@ -1,0 +1,20 @@
+# Exclude example lock file
+example/pubspec.lock
+
+# Exclude Windows generated plugin file
+example/windows/flutter/generated_plugins.cmake
+
+# Exclude other example build files
+example/.dart_tool/
+example/.packages
+example/.metadata
+
+example/ios/Runner.xcworkspace/
+example/ios/Pods/
+example/ios/Flutter/.last_build_id
+
+example/macos/Runner.xcworkspace/
+example/macos/Pods/
+
+example/linux/flutter/generated_plugins.cmake
+build/
