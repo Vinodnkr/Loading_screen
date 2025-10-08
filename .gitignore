@@ -1,0 +1,58 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# Dart/Flutter tools
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+pubspec.lock       # Packages should not commit this
+build/
+coverage/
+**/doc/api/
+
+# IDE/editor folders
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Flutter generated platform-specific folders
+# iOS
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/.symlinks/
+ios/DerivedData/
+ios/Runner.xcworkspace/
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/key.properties
+
+# Windows
+windows/flutter/ephemeral/
+windows/.vs/
+windows/build/
+
+# MacOS
+macos/Flutter/ephemeral/
+
+# Web
+web/.dart_tool/
+
+# Optional editor comments
+# The .vscode folder contains launch configurations and tasks.
+# Uncomment if you want to track VS Code settings.
+# .vscode/
