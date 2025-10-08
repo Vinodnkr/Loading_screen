@@ -1,8 +1,8 @@
 name: custom_loading_screen
-description: "A new Flutter package project."
+description: A Flutter package for a customizable loading screen overlay.
 version: 0.0.1
-homepage:
-
+homepage: https://github.com/Vinodnkr/custom_loading_screen
+repository: https://github.com/Vinodnkr/custom_loading_screen
 environment:
   sdk: ^3.6.0
   flutter: ">=1.17.0"
