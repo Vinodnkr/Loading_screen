@@ -23,17 +23,17 @@ Then run:
 
 flutter pub get
 
-Usage
-import 'package:flutter/material.dart';
-import 'package:custom_loading_screen/custom_loading_screen.dart';
+    Usage
+    import 'package:flutter/material.dart';
+    import 'package:custom_loading_screen/custom_loading_screen.dart';
 
-ElevatedButton(
-onPressed: () async {
-// Show the loading screen
-OverlayLoadingProgress.start(
-context,
-loadingText: 'Loading... Please wait.',
-);
+    ElevatedButton(
+    onPressed: () async {
+    // Show the loading screen
+    OverlayLoadingProgress.start(
+    context,
+    loadingText: 'Loading... Please wait.',
+    );
 
     // Simulate a task
     await Future.delayed(const Duration(seconds: 2));
@@ -41,9 +41,9 @@ loadingText: 'Loading... Please wait.',
     // Hide the loading screen
     OverlayLoadingProgress.stop();
 
-},
-child: const Text('Show Loading Screen'),
-)
+    },
+    child: const Text('Show Loading Screen'),
+    )
 
 Notes
 
